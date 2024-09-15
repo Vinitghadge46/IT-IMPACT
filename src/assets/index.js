@@ -9,7 +9,13 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+import client1 from "./clients/client-1.png";
+import client2 from "./clients/client-2.png";
+import client3 from "./clients/client-3.png";
+import client4 from "./clients/client-4.png";
+import client5 from "./clients/client-5.png";
+import client6 from "./clients/client-6.png";
+
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -70,10 +76,10 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
+import gmail from "./socials/gmail.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
+import Linkedin from "./socials/Linkedin.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
@@ -88,7 +94,12 @@ export {
   gradient,
   smallSphere,
   grid,
-  yourlogo,
+  client1,
+  client2,
+  client3,
+  client4,
+  client5,
+  client6,
   homeSmile,
   file02,
   searchMd,
@@ -141,9 +152,9 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
+  gmail,
   facebook,
   instagram,
-  telegram,
+  Linkedin,
   twitter,
 };

@@ -36,8 +36,8 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="flex w-[12rem] xl:mr-8" href="#hero">
-          <img src={logo} width={190} height={40} alt="logo" />
+        <a className="flex w-[12rem] xl:mr-8" href="/">
+          <img src={logo} style={{maxWidth:'115%'}}  alt="logo" />
         </a>
 
         <nav
@@ -67,7 +67,7 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
+        {/* <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
@@ -75,7 +75,7 @@ const Header = () => {
         </a>
         <Button className="hidden lg:flex" href="/login">
           Sign in
-        </Button>
+        </Button> */}
 
         <Button
           className="ml-auto lg:hidden"

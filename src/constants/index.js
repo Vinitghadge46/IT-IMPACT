@@ -7,7 +7,7 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
+  gmail,
   facebook,
   figma,
   file02,
@@ -31,11 +31,16 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
+  Linkedin,
   twitter,
   
   
-  yourlogo,
+  client1,
+  client2,
+  client3,
+  client4,
+  client5,
+  client6,
   
 } from "../assets";
 // import Button from "../components/Button";
@@ -61,25 +66,25 @@ export const navigation = [
     title: "Contact Us",
     url: "#footer",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [client1, client2, client3, client4, client5,client6];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -98,19 +103,19 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Manufacturing Business",
+    text: "Empowering your manufacturing business with innovative solutions for efficiency, precision, and growth.",
+    date: "Feb 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Ecommerce Store",
+    text: "Offer seamless eCommerce solutions for services on our platform, enabling easy purchase, booking, and management with a single click.",
+    date: "Nov 2023",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
@@ -123,9 +128,9 @@ export const roadmap = [
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Seo Optimization",
+    text: "Boost your online presence with our SEO optimization services, driving increased visibility and higher search rankings effortlessly.",
+    date: "April 2024",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -310,32 +315,22 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "https://mail.google.com/mail/?view=cm&fs=1&to=vinitghadge1234@gmail.com,vinitghadge04@gmail.com",
+    title: "Gmail",
+    iconUrl: gmail,
+    url: "https://mail.google.com/mail/?view=cm&fs=1&to=info@itimpactdeal.com,neerajshilwant19@gmail.com",
   },
+  
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "https://www.twitter.com/",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "https://www.instagram.com/itimpact.shilwant/",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "https://www.instagram.com/",
+    title: "Linkedin",
+    iconUrl: Linkedin,
+    url: "https://www.linkedin.com/in/ravindra-shilwant/",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "https://www.facebook.com/",
-  },
+  
 ];
