@@ -7,6 +7,8 @@ import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
+  
+ 
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
       <Heading  title="What we’re working on" />
@@ -73,6 +75,7 @@ const Roadmap = () => (
       </div> */}
     </div>
   </Section>
+  
 );
 
 export default Roadmap;

@@ -285,7 +285,7 @@ export const benefits = [
   {
     id: "3",
     title: "Digital Marketing",
-    text: "Reach your target audience through effective online marketing strategies.",
+    text: "Our digital marketing services are designed to help businesses of all sizes grow and succeed in today’s digital landscape. ",
     url: "/marketing",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
@@ -301,15 +301,15 @@ export const benefits = [
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
-  {
-    id: "5",
-    title: "Mobile App Development",
-    text: "Create engaging mobile apps that enhance your brand and reach customers on the go.",
-    url: "/mobile",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  // {
+  //   id: "5",
+  //   title: "Mobile App Development",
+  //   text: "Create engaging mobile apps that enhance your brand and reach customers on the go.",
+  //   url: "/mobile",
+  //   backgroundUrl: "./src/assets/benefits/card-6.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage2,
+  // },
 ];
 
 export const socials = [

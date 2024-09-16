@@ -1,5 +1,6 @@
 import ButtonGradient from "../assets/svg/ButtonGradient";
 import Benefits from "../components/Benefits";
+import Count from "../components/Count";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -12,7 +13,8 @@ const Home = () => {
         <div>
             <Header /> 
             <Hero />
-            <Benefits />            
+            <Benefits /> 
+            <Count/>           
             <Roadmap />
             <Footer />
         </div>

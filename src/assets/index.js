@@ -29,7 +29,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/mainframe.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -81,6 +81,8 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import Linkedin from "./socials/Linkedin.svg";
 import twitter from "./socials/twitter.svg";
+
+
 
 export {
   brainwave,
@@ -157,4 +159,7 @@ export {
   instagram,
   Linkedin,
   twitter,
+
+  
+
 };
